@@ -68,7 +68,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`xl:hidden fixed top-[72px] left-0 w-full bg-indigo-500 dark:bg-cyan-900 text-white transform transition-transform duration-300 ease-in-out
+        className={`xl:hidden fixed top-[72px] z-30 left-0 w-full bg-indigo-500 dark:bg-cyan-900 text-white transform transition-transform duration-300 ease-in-out
         ${open ? "translate-y-0 opacity-100" : "-translate-y-20 opacity-0 pointer-events-none"}`}
       >
         <ul className="text-center">
