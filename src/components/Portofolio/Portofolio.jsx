@@ -46,7 +46,7 @@ return <>
 onClick={()=> setSelectedItem(null)}>
   <img onClick={(e) =>{
     e.stopPropagation()
-  }} src={selectedItem.src} className=' w-2/3' alt="" />
+  }} src={selectedItem.src} className=' w-2/3' alt={selectedItem.alt} />
 </div>)} </>
 
 }
